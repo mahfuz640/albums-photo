@@ -1,9 +1,15 @@
+.photo-album {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .photo-frame {
     width: 300px;
     height: 328px;
     border: 10px solid goldenrod;
     border-radius: 10px;
     position: relative;
+    margin: 10px;
 }
 
 .photo-frame .photo img {
@@ -22,4 +28,9 @@
     display: block;
     background-color: rgba(236, 233, 73, 0.7);
     color: rgb(56, 21, 253);
+}
+
+.photo-frame:hover .photo-details h3 {
+    background-color: aqua;
+    text-align: center;
 }
