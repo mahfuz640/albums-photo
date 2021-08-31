@@ -1,6 +1,7 @@
 .photo-frame {
     width: 300px;
-    height: 400px;
+    height: 328px;
+    border: 10px solid goldenrod;
 }
 
 .photo-frame .photo img {
