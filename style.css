@@ -10,6 +10,15 @@
     border-radius: 10px;
     position: relative;
     margin: 10px;
+    /* overflow hidden korele border ar bahire jabe na */
+    overflow: hidden;
+}
+
+.photo-frame:hover .photo img {
+    /* transform hut kore animate kore */
+    transform: scale(1.2);
+    /* transition time niye animate kore naimation k */
+    transition: transform 2s;
 }
 
 .photo-frame .photo img {
@@ -26,11 +35,12 @@
 
 .photo-frame:hover .photo-details {
     display: block;
-    background-color: rgba(236, 233, 73, 0.7);
+    background-color: rgba(236, 233, 73, 0.2);
     color: rgb(56, 21, 253);
 }
 
 .photo-frame:hover .photo-details h3 {
     background-color: aqua;
     text-align: center;
+    color: white;
 }
